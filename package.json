@@ -2,7 +2,7 @@
   "name": "nextts-template",
   "version": "1.0.0",
   "author": "Alan",
-  "repository": "https://github.com/Qiming-Liu/Node-TS-Express-Mongo-Apollo-Graphql-Template",
+  "repository": "https://github.com/Qiming-Liu/Next-TS-Restful-Apollo-Graphql-Template-Boilerplate",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
