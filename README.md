@@ -8,10 +8,12 @@
 ![Code Size](https://img.shields.io/github/languages/code-size/Qiming-Liu/Next-TS-Restful-Apollo-Graphql-Template-Boilerplate)
 ![Stars](https://img.shields.io/github/commit-activity/y/Qiming-Liu/Next-TS-Restful-Apollo-Graphql-Template-Boilerplate)
 
+### Frontend: [Next-TS-Restful-Apollo-Graphql-Template-Boilerplate](https://github.com/Qiming-Liu/Next-TS-Restful-Apollo-Graphql-Template-Boilerplate)  
+### Backend: [Node-TS-Restful-Apollo-Graphql-Template-Boilerplate](https://github.com/Qiming-Liu/Node-TS-Restful-Apollo-Graphql-Template-Boilerplate)  
+
 <p align="center"><img src="./public/architecture.png"></p>
 
-A Full Stack (MERN) template/boilerplate for Next.js as Frontend, Express as Backend, Apollo as GraphQL, MongoDB as Database.  
-Using both Restful Api + Graphql.  
+A Full Stack (MERN) template/boilerplate for Next.js as Frontend, Express as Backend, Apollo as GraphQL, MongoDB as Database using both Restful Api + Graphql.
 ## Project Architecture
 
 <table align="center" border=0>
