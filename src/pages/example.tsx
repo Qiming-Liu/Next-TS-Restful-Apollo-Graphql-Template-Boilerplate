@@ -7,18 +7,11 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 
 import { hello, getUser1 } from "@/services/api/hello";
-import { GET_USER } from "@/services/gql/uset";
+import { GET_USER } from "@/services/gql/user";
 
 const Example: NextPage = () => {
-  const [categoriesData, setCategoriesData] = useState([]);
   const [helloData, setHelloData] = useState("");
   const { loading, error, data } = useQuery(GET_USER);
-
-  useEffect(() => {
-    getUser1().then((response) => {
-      setCategoriesData(response.data);
-    });
-  }, []);
 
   return (
     <Container component="main" maxWidth="xs">
@@ -45,7 +38,6 @@ const Example: NextPage = () => {
         <Typography sx={{ mt: 2 }} variant="h5">
           Backend api Get getUser1:
         </Typography>
-        <Typography variant="subtitle1">{JSON.stringify(categoriesData)}</Typography>
         <Typography sx={{ mt: 2 }} variant="h5">
           Graphql Get User:
         </Typography>
